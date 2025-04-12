@@ -17,8 +17,11 @@ Inside root project:
 PYTHONPATH=`pwd` uvicorn main:app --reload
 ```
 
+Go to 'http://127.0.0.1:8000/docs' or whatever http://host:ip/docs the server started at.
+
 To test (make sure app is running):
 ```bash
+# within the project dir
 PYTHONPATH=`pwd` pytest tests
 ```
 
