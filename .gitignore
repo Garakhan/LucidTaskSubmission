@@ -1,0 +1,6 @@
+**/__pycache__
+.venv
+**/*.ipynb
+test.py
+**/.DS_Store
+**/.pytest_cache
